@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>iCorgi</title>
+	<script type="text/javascript">
+		function touchCorgi(){
+			var litteHeart=prompt("谁要寝隔个的小心心?","把名字写在这");
+			
+			if(litteHeart){
+				alert("寝隔个的小心心是给"+litteHeart+"的.");
+				document.getElementById("corgiImg").src="corgi_pp.gif";
+			}
+		}
+	</script>	
+</head>
+
+<body>
+	<div style="margin-top:80px;text-align:center;">
+		<img id="corgiImg" src="corgi.png" alt="corgi" style="cursor:pointer;width:200px;" onclick="touchCorgi()" />
+	</div>
+</body>
+</html>
